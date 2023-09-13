@@ -1,7 +1,7 @@
 enum BottomNavigationEnum {
-  MENU,
-  OFFERS,
+  STATISTIC,
+  STAR,
   HOME,
-  PRIFILE,
-  MORE,
+  LOCATION,
+  NOTE,
 }

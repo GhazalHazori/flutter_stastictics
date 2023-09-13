@@ -14,4 +14,9 @@ class AppColors {
   static Color greyintrotext = Color.fromRGBO(74, 75, 77, 1);
   static Color greyDotsIndicator = Color.fromRGBO(214, 214, 214, 1);
   static Color greydescriptionList = Color.fromRGBO(124, 125, 126, 1);
+  static Color maingreencolor = Color.fromRGBO(33, 199, 69, 1);
+  static Color maingreeborder = Color.fromRGBO(31, 114, 49, 1);
+  static Color mainareagreen = Color.fromRGBO(156, 197, 166, 1);
+  static Color mainredcolor = Color.fromRGBO(223, 10, 10, 1);
+  static Color mainyellowcolor = Color.fromRGBO(241, 245, 3, 1);
 }

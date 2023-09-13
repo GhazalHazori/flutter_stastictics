@@ -1,6 +1,11 @@
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_templat/core/utils/general_utile.dart';
+import 'package:flutter_templat/ui/views/container_view.dart';
+import 'package:flutter_templat/ui/views/main_view.dart';
+import 'package:flutter_templat/ui/views/main_view/main_view.dart';
+
+import 'package:flutter_templat/ui/views/tabbar_page.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:provider/provider.dart';
@@ -42,7 +47,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: SplashScreenView(),
+        home: MainView(),
       ),
     );
   }
